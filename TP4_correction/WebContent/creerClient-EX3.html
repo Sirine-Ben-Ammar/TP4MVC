@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Création d'un client</title>
+</head>
+<body bgcolor="#COCOCO">
+<div>
+   <form method="get" action="ClientServlet">
+      <fieldset>
+         <legend><h2>Informations Client</h2></legend>
+         
+         <label for="nomClient">Nom <span class="requis">*</span></label>
+          <input type="text" id="nomClient" name="nomClient" size="20" placeholder="Nom" required>
+          <br/><br>
+          
+          <label for="prenomClient">Prenom <span class="requis">*</span></label>
+          <input type="text" id="prenomClient" name="prenomClient" size="20" placeholder="Prénom" required>
+          <br/><br>
+          
+          <label for="adresseClient">Adresse <span class="requis">*</span></label>
+          <input type="text" id="adresseClient" name="adresseClient" size="20" placeholder="Adresse" required>
+          <br/><br>
+          
+          <label for="telephoneClient">Telephone <span class="requis">*</span></label>
+          <input type="number" id="telephoneClient" name="telephoneClient" size="20" placeholder="Telephone" required>
+          <br/><br>
+          
+          <label for="emailClient">Email <span class="requis">*</span></label>
+          <input type="email" id="emailClient" name="emailClient" size="20" placeholder="Email" required>
+          <br/><br>
+
+<input type="submit" value="Valider">
+<input type="reset" value="Remettre à zéro">
+      </fieldset>
+</body>
+</html>
